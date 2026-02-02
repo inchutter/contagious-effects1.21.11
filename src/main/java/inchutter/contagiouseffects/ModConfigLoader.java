@@ -61,6 +61,11 @@ public final class ModConfigLoader {
 		);
 	}
 
+	public static void save(ModConfig cfg) {
+		Path configPath = FabricLoader.getInstance().getConfigDir().resolve(FILE_NAME);
+		write(configPath, cfg);
+	}
+
 	private static void write(Path path, ModConfig cfg) {
 		try {
 			Files.createDirectories(path.getParent());
