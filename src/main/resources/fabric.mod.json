@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "contagious-effects",
+	"version": "${version}",
+	"name": "Contagious Effects",
+	"description": "Status effects spread to nearby players.",
+	"authors": [
+		"inchutter"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/contagious-effects/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"inchutter.contagiouseffects.ContagiousEffects"
+		],
+		"client": [
+			"inchutter.contagiouseffects.ContagiousEffectsClient"
+		]
+	},
+	"mixins": [
+		"contagious-effects.mixins.json",
+		{
+			"config": "contagious-effects.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
