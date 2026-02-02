@@ -17,7 +17,7 @@ public record ModConfig(
 				2.0,   // rangeBlocks
 				10,    // scanIntervalTicks
 				20,    // cooldownTicks
-				true,  // applyIfStrongerOnly
+				false,  // applyIfStrongerOnly
 				true,  // ignoreSpectator
 				false  // ignoreCreative
 		);
