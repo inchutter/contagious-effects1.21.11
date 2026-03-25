@@ -1,3 +1,6 @@
+[![Modrinth](https://img.shields.io/modrinth/dt/9VyAu31M?logo=modrinth&label=Download&color=00AF5C)](https://modrinth.com/mod/9VyAu31M)
+
+
 # Contagious Effects
 
 A Minecraft Fabric mod that enables status effects to spread between nearby players, creating more dynamic and strategic gameplay scenarios.
